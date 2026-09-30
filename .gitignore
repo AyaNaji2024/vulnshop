@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.sbom.json
+sbom.json
+.pytest_cache/
