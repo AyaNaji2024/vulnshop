@@ -1,3 +1,4 @@
-DB_HOST = "db.internal"
-DB_USER = "shop"
-***REMOVED*** = "D76g4qM2WZJNg1LT4gHK"
+import os
+DB_HOST = os.environ["db.internal"]
+DB_USER = os.environ["shop"]
+***REMOVED*** = os.environ["D76g4qM2WZJNg1LT4gHK"]
